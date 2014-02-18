@@ -1,0 +1,70 @@
+{
+  "bounds": [
+    -143.877,
+    -0.7031,
+    -44.0332,
+    73.0226
+  ],
+  "center": [
+    -82.002,
+    40.4469,
+    0
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "US_Peanut_Prod",
+    "template_teaser": "State: {{{State_1}}}<br/>\nCounty: {{{County_1}}}<br/>\nPeanuts Produced In lbs: {{{Value}}}"
+  },
+  "minzoom": 0,
+  "maxzoom": 6,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "10m-admin-0-countries",
+      "name": "10m-admin-0-countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      },
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ],
+      "class": "",
+      "srs-name": "900913",
+      "advanced": {}
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.14733999999999,
+        17.884813000000005,
+        179.77846999999997,
+        71.35256064399978
+      ],
+      "id": "US_Peanut_Prod",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Public\\Documents\\GitHold\\Amazinger Maps\\US Peanut Growing Areas\\Data\\Peanut_Prod_By_County.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "US_Peanut_Prod"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "US Peanut Production By County",
+  "description": "An Amazing-er Map",
+  "attribution": "@jadkins USDA Census",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>US Peanut Producing Counties </div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#E2E6D8;'></span>Peanut Producing</li>\n    <li><span style='background:#C7CCB6;'></span>Disclosure Witheld</li>\n\n  </ul>\n</div>\n<div class='legend-source'>Source: <a href=\"http://www.nass.usda.gov/Quick_Stats/\">NASS, USDA, Census.gov</a></div>\n</div>\n\n<style type='text/css'>\n  .my-legend .legend-title {\n    text-align: left;\n    margin-bottom: 5px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .my-legend .legend-scale ul {\n    margin: 0;\n    margin-bottom: 5px;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .my-legend .legend-scale ul li {\n    font-size: 80%;\n    list-style: none;\n    margin-left: 0;\n    line-height: 18px;\n    margin-bottom: 2px;\n    }\n  .my-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 16px;\n    width: 30px;\n    margin-right: 5px;\n    margin-left: 0;\n    border: 1px solid #999;\n    }\n  .my-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .my-legend a {\n    color: #777;\n    }\n</style>"
+}
