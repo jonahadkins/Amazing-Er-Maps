@@ -1,0 +1,74 @@
+{
+  "bounds": [
+    -180,
+    13.5819,
+    -56.25,
+    73.1249
+  ],
+  "center": [
+    -101.9531,
+    41.7713,
+    1
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "NatGrd-Pop-Per-1K",
+    "fields": [],
+    "template_teaser": "{{{State}}}<br/>\n2010 State Pop: {{{POP_2010}}}<br/>\nNational Guard: {{{NG_TOTAL}}}",
+    "template_full": ""
+  },
+  "minzoom": 0,
+  "maxzoom": 4,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ],
+      "id": "10m-admin-0-countries",
+      "class": "",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.3.0/cultural/10m-admin-0-countries.zip"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "10m-admin-0-countries"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.14350338399987,
+        17.92291901200015,
+        179.7809350920001,
+        71.41250234600007
+      ],
+      "id": "NatGrd-Pop-Per-1K",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Public\\Documents\\GitHold\\Amazinger Maps\\National Guard Per Capita\\Data\\NG_Pop_Per_State.shp",
+        "id": "NatGrd-Pop-Per-1K",
+        "project": "NG_Pop_Per_State",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "NatGrd-Pop-Per-1K"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "National Guard Per State",
+  "description": "An Amazing-er Map",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>Percent Of National Guard Per 1000 People</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#8AA1BA;'></span>1%</li>\n    <li><span style='background:#748EAD;'></span>2%</li>\n    <li><span style='background:#607CA1;'></span>3%</li>\n    <li><span style='background:#4D6C94;'></span>4%</li>\n    <li><span style='background:#3B5D8A;'></span>5%</li>\n    <li><span style='background:#284E7D;'></span>6%</li>\n    <li><span style='background:#124173;'></span>7%</li>\n  </ul>\n</div>\n<div class='legend-source'>Source: <a href=\"http://www.nationalguard.mil/sitelinks/Contracting%20Records/Statistics%20-%20Total%20Air%20and%20Army%20National%20Guard%20Personnel.pdf\">NationalGuard.mil</a></div>\n</div>\n\n<style type='text/css'> \n  .my-legend .legend-title {\n    text-align: left;\n    margin-bottom: 5px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .my-legend .legend-scale ul {\n    margin: 0;\n    padding: 0;\n    float: center;\n    list-style: none;\n    }\n  .my-legend .legend-scale ul li {\n    display: block;\n    float: left;\n    width: 30px;\n    margin-bottom: 6px;\n    text-align: left;\n    font-size: 80%;\n    list-style: none;\n    }\n  .my-legend ul.legend-labels li span {\n    display: block;\n    float: eft;\n    height: 15px;\n    width: 30px;\n    }\n  .my-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    text-align: left;\n    }\n  .my-legend a {\n    color: #777;\n    }\n  .my-legend {\n    max-width: 1000px !important;\n    }\n</style>",
+  "attribution": "@jadkins, NationalGuard.mil"
+}
