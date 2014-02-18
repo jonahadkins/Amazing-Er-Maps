@@ -1,0 +1,73 @@
+{
+  "bounds": [
+    -81.4526,
+    39.5295,
+    -71.0156,
+    46.1874
+  ],
+  "center": [
+    -75.4541,
+    42.6259,
+    6
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "NY_Per_Capita_Income_By_County",
+    "template_teaser": "County: {{{NAME}}}<br/>\nRank: {{{Rank}}}/62<br/>\nPer Capita Income:  {{{Per_capita}}}<br/>\n"
+  },
+  "minzoom": 6,
+  "maxzoom": 7,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "10m-admin-0-countries",
+      "name": "10m-admin-0-countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      },
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ],
+      "class": "",
+      "srs-name": "900913",
+      "advanced": {}
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -79.76187421731255,
+        40.496059378146434,
+        -71.85608733499159,
+        45.012985333278074
+      ],
+      "id": "NY_Per_Capita_Income_By_County",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Public\\Documents\\GitHold\\Amazinger Maps\\New York Counties Per Capita Income\\Data\\NY_Per_Capita_Income_By_County.shp",
+        "id": "NY_Per_Capita_Income_By_County",
+        "project": "NY_Income",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "NY_Per_Capita_Income_By_County"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "NY Counties Per Capita Income ",
+  "description": "An Amazing-er Map",
+  "attribution": "@jadkins  Census.gov  GIS.NY.gov",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'> NY Counties Per Capita Income </div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#D7F0AF;'></span><$20k</li>\n    <li><span style='background:#B5C989;'></span><$30k</li>\n    <li><span style='background:#98A867;'></span><$40k</li>\n    <li><span style='background:#798748;'></span><$50k</li>\n    <li><span style='background:#606B2D;'></span><$60k</li>\n  </ul>\n</div>\n<div class='legend-source'>Source: <a href=\"http://factfinder2.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_10_5YR_DP03&prodType=table\">Census.gov</a></div>\n</div>\n\n<style type='text/css'>\n  .my-legend .legend-title {\n    text-align: left;\n    margin-bottom: 8px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .my-legend .legend-scale ul {\n    margin: 0;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .my-legend .legend-scale ul li {\n    display: block;\n    float: left;\n    width: 50px;\n    margin-bottom: 6px;\n    text-align: center;\n    font-size: 80%;\n    list-style: none;\n    }\n  .my-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 15px;\n    width: 50px;\n    }\n  .my-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .my-legend a {\n    color: #777;\n    }\n</style>"
+}
