@@ -6,7 +6,7 @@ To add a new map to this repo:
 * Store all files in folder named after the map
 * Must include data source (pdf, csv, etc) Not a link!
 * Must include GeoJSON of data
-  * **Bonus** Link to online map!
+  * **Bonus** Zipped shapefile, lyr files, etc
 * Image of new map
 * Map project file (TileMill, ArcMap, QGis)
   * **Bonus** Link to online map!
