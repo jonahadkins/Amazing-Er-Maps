@@ -13,11 +13,9 @@ would be the ideal delivery method, but a project file from desktop software and
 To add a new map to this repo:
 * Store all files in folder named after the map
 * **Must** include data source (pdf, csv, etc) Not a link!
-* **Must** include GeoJSON of data
-  * Bonus - zipped shapefile, lyr files, etc
+* **Must** include GeoJSON of data (small sets) or zipped shapefile (large sets)
 * Map project file (TileMill, ArcMap, QGis)
-* Image of new map
-  * Bonus - link to online map!
+* Link to online map or image of new map
 * Add read me to folder including: map name, general location, website found on, website link, source name, source link
 * Update the main repo MapTracker csv
 
