@@ -1,13 +1,13 @@
-Map Name: First Railway By Country
+Map Name: US Peanut Growing Areas
 
 Map Category:
 
-Location: EU
+Location: US
 
-Website:[Amazing Maps](http://upload.wikimedia.org/wikipedia/commons/9/9a/First-railway-Europe-country.jpg)
+Website:[Maps On The Web](http://mapsontheweb.zoom-maps.com/post/76547930347/peanut-growing-areas-in-the-united-states)
 
 Source Listed: None
 
-New Source: [Wikipedia](http://en.wikipedia.org/wiki/History_of_rail_transport)
+New Source: [USDA](http://www.nass.usda.gov/Quick_Stats/)
 
-New Map Link: [First Railway By Country](https://a.tiles.mapbox.com/v3/jonahadkins.haep2l7b/page.html?secure=1#3/14.69/12.83)
+New Map Link: [US Peanut Growing Areas](https://a.tiles.mapbox.com/v3/jonahadkins.haepmgna/page.html?secure=1#5/37.038/-94.746)
