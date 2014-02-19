@@ -1,0 +1,59 @@
+{
+  "bounds": [
+    -161.3672,
+    15.1993,
+    -61.3477,
+    67.4412
+  ],
+  "center": [
+    -96.3281,
+    42.8115,
+    1
+  ],
+  "format": "png",
+  "interactivity": {
+    "fields": [
+      "MSA",
+      "GDP_2012",
+      "Rank_2012"
+    ],
+    "layer": "gdbbymsa2012",
+    "template_teaser": "MSA: {{{MSA}}}<br/>\nGDP: ${{{GDP_2012}}}<br/>\nRank: {{{Rank_2012}}}/381"
+  },
+  "minzoom": 0,
+  "maxzoom": 8,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -178.43639641046792,
+        20.45499357754952,
+        -67.95446061595794,
+        65.44783271665135
+      ],
+      "id": "gdbbymsa2012",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Public\\Documents\\GitHold\\Amazinger Maps\\US_GDP_Split\\GDB_By_MSA_2012.shp",
+        "id": "gdbbymsa2012",
+        "project": "GDP_By_MSA",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "gdbbymsa2012"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "2012 GDP By Metropolitan Statistical Areas",
+  "description": "An Amazing-er Map",
+  "attribution": "@jonahadkins, Census.gov",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>GDP By Metropolitan Statistical Areas</div>\n<div class='legend-title'>2012 Total US GDP $14,103,819</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#f48d4d;'></span>Top 20 (50%)</li>\n    <li><span style='background:#CCCCCC;'></span>All Others</li>\n\n  </ul>\n</div>\n<div class='legend-source'>Source: <a href=\"http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm\">Bureau Of Economic Analysis</a></div>\n</div>\n\n<style type='text/css'>\n  .my-legend .legend-title {\n    text-align: left;\n    margin-bottom: 2px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .my-legend .legend-subtitle {\n    text-align: left;\n    margin-bottom: 5px;\n    font-size: 70%;\n    }\n  .my-legend .legend-scale ul {\n    margin: 0;\n    margin-bottom: 5px;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .my-legend .legend-scale ul li {\n    font-size: 80%;\n    list-style: none;\n    margin-left: 0;\n    line-height: 18px;\n    margin-bottom: 2px;\n    }\n  .my-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 16px;\n    width: 30px;\n    margin-right: 5px;\n    margin-left: 0;\n    border: 1px solid #999;\n    }\n  .my-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .my-legend a {\n    color: #777;\n    }\n</style>"
+}
