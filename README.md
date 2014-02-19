@@ -6,8 +6,8 @@ The goal of the Amazing-er Maps project is to *improve* the one - off maps share
 across the internet. By using GitHub as the repository, we can open the data sources used
 in these maps, while improving their cartographic quality.
 
-Ideally, an interactive map, via MapBox, ArcGIS Online, CartoDB, or some other source
-would be delivery method. A project file from desktop software and an image export will do as well.
+An interactive map, via MapBox, ArcGIS Online, CartoDB, or some other resource
+would be the ideal delivery method, but a project file from desktop software and an image export will do as well.
 
 
 To add a new map to this repo:
@@ -30,6 +30,6 @@ I've created 5 examples based on some "amazing" maps.
 * [Global Fertility Rate](https://a.tiles.mapbox.com/v3/jonahadkins.haep2l7b/page.html?secure=1#3/14.69/12.83)
 
 
-Please comment/ask any questions.
+Please suggest/comment/ask and contribute, definitely contribute.
 
 
