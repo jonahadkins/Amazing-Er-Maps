@@ -20,7 +20,8 @@ To add a new map to this repo:
 * Update the main repo MapTracker csv
 
 
-I've created 5 examples based on some "amazing" maps. 
+I've created 6 examples based on some "amazing" maps.
+* [GDP By Metro Statistical Area](https://a.tiles.mapbox.com/v3/jonahadkins.hal8980h/page.html?secure=1#5/38.273/-94.438)
 * [National Guard Per 1000 People](http://a.tiles.mapbox.com/v3/jonahadkins.had38d56/page.html?secure=1#4/38.99/-105.73)
 * [New York Counties Per Capita Income](https://a.tiles.mapbox.com/v3/jonahadkins.hadebnoj/page.html?secure=1#7/42.852/-74.652)
 * [US Peanut Growing Areas](https://a.tiles.mapbox.com/v3/jonahadkins.haepmgna/page.html?secure=1#5/37.038/-94.746)
