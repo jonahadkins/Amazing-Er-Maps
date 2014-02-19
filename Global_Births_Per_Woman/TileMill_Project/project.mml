@@ -1,0 +1,73 @@
+{
+  "bounds": [
+    -180,
+    -85.0511,
+    180,
+    85.0511
+  ],
+  "center": [
+    0,
+    0,
+    2
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "Fertility_Rate_Per_Women",
+    "template_teaser": "Country: {{{Country}}} <br/>\nAvg. Children Per Woman: {{{Rate}}}<br/>\nRank: {{{Rank}}}/224"
+  },
+  "minzoom": 0,
+  "maxzoom": 3,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "10m-admin-0-countries",
+      "name": "10m-admin-0-countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      },
+      "extent": [
+        -179.99978348919961,
+        -85.051,
+        180,
+        83.63381093402975
+      ],
+      "class": "",
+      "srs-name": "900913",
+      "advanced": {}
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -179.9999885408441,
+        -56.523451430639014,
+        179.9999885408441,
+        83.63410065282295
+      ],
+      "id": "Fertility_Rate_Per_Women",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\Public\\Documents\\GitHold\\Amazinger Maps\\Global Births Per Woman\\Data\\Fert_Rate_2013.shp",
+        "id": "Fertility_Rate_Per_Women",
+        "project": "Fertility_Rate_By_Country",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "Fertility_Rate_Per_Women"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "Fertility Rate By Country",
+  "description": "An Amazing-er Map",
+  "attribution": "@jadkins CIA World Fact Book",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>Fertility Rate By Country (2013)</div>\n<div class='legend-subtitle'>Births Per Woman</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#EDE2BB;'></span><= 1</li>\n    <li><span style='background:#DBD1AD;'></span><= 2</li>\n    <li><span style='background:#C9C09D;'></span><= 3</li>\n    <li><span style='background:#B8AF8F;'></span><= 4</li>\n    <li><span style='background:#A69D80;'></span><= 5</li>\n    <li><span style='background:#948D72;'></span><= 6</li>\n    <li><span style='background:#827B63;'></span><= 7</li>\n    <li><span style='background:#706A54;'></span><= 8</li>\n  </ul>\n</div>\n<div class='legend-source'>Source: <a href=\"https://www.cia.gov/library/publications/the-world-factbook/rankorder/2127rank.html\">CIA World Fact Book</a></div>\n</div>\n\n<style type='text/css'>\n  .my-legend .legend-title {\n    text-align: left;\n    margin-bottom: 2px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .my-legend .legend-subtitle {\n    text-align: left;\n    margin-bottom: 5px;\n    font-size: 70%;\n    }\n  .my-legend .legend-scale ul {\n    margin: 0;\n    margin-bottom: 5px;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .my-legend .legend-scale ul li {\n    font-size: 80%;\n    list-style: none;\n    margin-left: 0;\n    line-height: 18px;\n    margin-bottom: 2px;\n    }\n  .my-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 16px;\n    width: 30px;\n    margin-right: 5px;\n    margin-left: 0;\n    border: 1px solid #999;\n    }\n  .my-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .my-legend a {\n    color: #777;\n    }\n</style>"
+}
