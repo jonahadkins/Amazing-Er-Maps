@@ -1,13 +1,13 @@
-Map Name: National Guard Per 1000 People
+Map Name: Global Fertility Rate
 
 Map Category:
 
-Location: US
+Location: World
 
-Website:[Land of Maps](http://thelandofmaps.tumblr.com/post/76678757113/national-guard-servicemen-per-thousand-capita-oc)
+Website:[Amazing Maps](https://www.facebook.com/photo.php?fbid=700909066619895&set=a.678975778813224.1073741827.678951278815674&type=1&theater)
 
 Source Listed: None
 
-New Source: [National Guard](http://www.nationalguard.mil/sitelinks/Contracting%20Records/Statistics%20-%20Total%20Air%20and%20Army%20National%20Guard%20Personnel.pdf)
+New Source: [CIA FB](https://www.cia.gov/library/publications/the-world-factbook/rankorder/2127rank.html)
 
-New Map Link: [National Guard Soldiers Per State](http://a.tiles.mapbox.com/v3/jonahadkins.had38d56/page.html?secure=1#4/38.99/-105.73)
+New Map Link: [Global Fertility Rate](https://a.tiles.mapbox.com/v3/jonahadkins.haep2l7b/page.html?secure=1#3/14.69/12.83)
