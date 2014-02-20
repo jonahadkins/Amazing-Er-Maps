@@ -1,6 +1,6 @@
 Amazing-Er-Maps
 ===============
-There's a lot of **bad** maps out there. Let's fix'em. 
+There's a lot of ~~bad~~ **unique** maps out there.
 
 The goal of the Amazing-er Maps project is to *improve* the one - off maps shared endlessly
 across the internet. By using GitHub as the repository, we can open the data sources used
