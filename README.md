@@ -12,7 +12,7 @@ would be the ideal delivery method, but a project file from desktop software and
 
 To add a new map to this repo:
 * Store all files in folder named after the map
-* **Must** include data source (pdf, csv, etc) Not a link!
+* **Must** include data source (pdf, csv, etc - preferred) or link to durable source
 * **Must** include GeoJSON of data (small sets) or zipped shapefile (large sets)
 * Map project file (TileMill, ArcMap, QGis)
 * Link to online map or image of new map
