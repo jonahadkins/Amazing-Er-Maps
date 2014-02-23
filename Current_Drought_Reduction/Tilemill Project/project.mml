@@ -1,0 +1,54 @@
+{
+  "bounds": [
+    -130.0781,
+    23.4834,
+    -61.875,
+    51.1242
+  ],
+  "center": [
+    -106.1719,
+    40.714,
+    1
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "climdivwithdrought",
+    "template_teaser": "State: {{{STATE}}}<br/>\nClimate Division: {{{NAME}}}<br/>\nPrecipitation Needed: {{{F5_Mon}}} "
+  },
+  "minzoom": 0,
+  "maxzoom": 7,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -124.71845050731143,
+        24.54684592295668,
+        -66.96960658438859,
+        49.38063001057043
+      ],
+      "id": "climdivwithdrought",
+      "class": "",
+      "Datasource": {
+        "file": "C:\\Users\\jadkins\\Documents\\GitHub\\Amazing-Er-Maps\\Current_Drought_Reduction\\Clim_Div_With_Drought.shp",
+        "id": "climdivwithdrought",
+        "project": "Current_Drought_Reduction",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "climdivwithdrought"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "",
+  "name": "Current Drought Reduction",
+  "description": "An Amazing-er Map",
+  "attribution": "@jonahadkins, NCDC, NOAA",
+  "legend": "<div class='my-legend'>\n<div class='legend-title'>Precipitation Required To End Current Drought Conditions In Three Months (January 2014)</div>\n<div class='legend-subtitle'>Precipitation By Palmer Hydrological Drought Index (PHDI)</div>\n<div class='legend-scale'>\n  <ul class='legend-labels'>\n    <li><span style='background:#e1e1e1;'></span>No Drought</li>\n    <li><span style='background:#E1F2FC;'></span>Trace To 4.00</li>\n    <li><span style='background:#C3E5F7;'></span>4.01 To 8.00</li>\n    <li><span style='background:#A6D9F5;'></span>8.01 To 12.00</li>\n    <li><span style='background:#86CBF0;'></span>12.01 To 16.00</li>\n    <li><span style='background:#66C0ED;'></span>16.01 To 20.00</li>\n    <li><span style='background:#44B6EB;'></span>20.01 To 24.00</li>\n    <li><span style='background:#00A8E6;'></span>24.01 To 49.92</li>\n\n  </ul>\n</div>\n<div class='legend-source'>Source: <a href=\"http://www.ncdc.noaa.gov/temp-and-precip/drought/recovery.php?type=end&duration=3&curr-submitted=Submit#curr\">National Climatic Data Center</a></div>\n</div>\n\n<style type='text/css'>\n  .my-legend .legend-title {\n    text-align: left;\n    margin-bottom: 2px;\n    font-weight: bold;\n    font-size: 90%;\n    }\n  .my-legend .legend-subtitle {\n    text-align: left;\n    margin-bottom: 5px;\n    font-size: 70%;\n    }\n  .my-legend .legend-scale ul {\n    margin: 0;\n    margin-bottom: 5px;\n    padding: 0;\n    float: left;\n    list-style: none;\n    }\n  .my-legend .legend-scale ul li {\n    font-size: 80%;\n    list-style: none;\n    margin-left: 0;\n    line-height: 18px;\n    margin-bottom: 2px;\n    }\n  .my-legend ul.legend-labels li span {\n    display: block;\n    float: left;\n    height: 16px;\n    width: 30px;\n    margin-right: 5px;\n    margin-left: 0;\n    border: 1px solid #999;\n    }\n  .my-legend .legend-source {\n    font-size: 70%;\n    color: #999;\n    clear: both;\n    }\n  .my-legend a {\n    color: #777;\n    }\n</style>"
+}
