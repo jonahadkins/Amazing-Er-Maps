@@ -24,7 +24,7 @@ I've created 7 examples based on some "amazing" maps.
 * [Current Drought Reduction](https://a.tiles.mapbox.com/v3/jonahadkins.hbo4co23/page.html?secure=1#4/40.45/-92.90)
 * [GDP By Metro Statistical Area](https://a.tiles.mapbox.com/v3/jonahadkins.hal8980h/page.html?secure=1#5/38.273/-94.438) And [Population By Metro Statistical Area](https://a.tiles.mapbox.com/v3/jonahadkins.hb0g86h7/page.html?secure=1#5/38.221/-96.680)
 * [National Guard Per 1000 People](http://a.tiles.mapbox.com/v3/jonahadkins.had38d56/page.html?secure=1#4/38.99/-105.73)
-* [New York Counties Per Capita Income](https://a.tiles.mapbox.com/v3/jonahadkins.hadebnoj/page.html?secure=1#7/42.852/-74.652)
+* [New York Counties Per Capita Income Via MapBox](https://a.tiles.mapbox.com/v3/jonahadkins.hadebnoj/page.html?secure=1#7/42.852/-74.652) Or [NY County Per Capita Income Via ArcGIS Online](http://www.arcgis.com/apps/OnePane/basicviewer/index.html?appid=c88aa80b84c245cca2d60ec6b30667aa)
 * [US Peanut Growing Areas](https://a.tiles.mapbox.com/v3/jonahadkins.haepmgna/page.html?secure=1#5/37.038/-94.746)
 * [First Railway By Country](https://a.tiles.mapbox.com/v3/jonahadkins.haf032e2/page.html?secure=1#4/55.40/29.18)
 * [Global Fertility Rate](https://a.tiles.mapbox.com/v3/jonahadkins.haep2l7b/page.html?secure=1#3/14.69/12.83)
