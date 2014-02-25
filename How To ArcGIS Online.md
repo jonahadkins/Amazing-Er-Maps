@@ -14,7 +14,7 @@ The location was filtered by county geographic area, and I chose the most recent
 Now that I have the source data, I need to join it up to some GIS data. The CSV contains county names, but duplicates county names could exist between states, so I'll need to use ANSI code. This is more or less a unique code for each county. Next, we find an **open and authoritative source** for US county boundaries. The Census Bureau has maintained it's TIGER data for years as an authoritative source. Visit:<br>
 >[Maps & Data](http://www.census.gov/geo/maps-data/) > [TIGER Prodcuts](http://www.census.gov/geo/maps-data/data/tiger.html)> [Cartographic Boundary Files](http://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html) > [Counties](http://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html)<br>
 
-From there you can chose the resolution of the shapefile and download. 
+From there you can chose the resolution of the shapefile and download.  
 #####**Data Clean-Up**
 To join the shapefile with the csv, I had to first concatenate the state and county ansi codes to one field in both the CSV and the shapefile. With the join complete, I selected only the counties that had peanut growing data and exported it to a new shapefile, with a web mercator projection. The resulting data set has County Name and Value (Measured In Lbs. Of Peanuts Produced). Some values had a (D) code, which meant the vlaue "..Withheld to avoid disclosing data for individual operations.."  I created a simple color grouping (group) to quickly sort visually by counties with this (D) value. With that data complete, I zipped up the shapefile and also created a GeoJSON file by using the [Esri2Open Toolbox](https://github.com/project-open-data/esri2open)
 
