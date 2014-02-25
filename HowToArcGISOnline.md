@@ -26,6 +26,16 @@ From your web map view, choose share, and choose Make A Web Application, from he
 #####**Details, Details, Details**
 With both the web map and web application you'll want to populate the item details. When viewing the item details, you can select the EDIT button to expose that function. From here you can include a custom image thumbnail, detailed description, usage, and credits. With your map shared within the ArcGIS Online system, others will have access to you map through searches and such, so the more details and tags the better.
 
+####**5. Contribute To This Repo**<br>
+To add a new map to this repo:
+* Store all files in folder named after the map
+* **Must** include data source (pdf, csv, etc - preferred) or link to durable source
+* **Must** include GeoJSON of data (small sets) or zipped shapefile (large sets)
+* Map project file (TileMill, ArcMap, QGis)
+* Link to online map or image of new map
+* Add read me to folder including: map name, general location, website found on, website link, source name, source link
+* Update the main repo MapTracker csv
+
 ####**And You're Done!**<br>
 You can view my final version via ArcGIS Online --  [US Peanut Producing Counties](http://www.arcgis.com/apps/PanelsLegend/index.html?appid=86f6966ffb2741e28753f8f535bed728)
 
