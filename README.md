@@ -30,6 +30,11 @@ I've created 7 examples based on some "amazing" maps.
 * [Global Fertility Rate](https://a.tiles.mapbox.com/v3/jonahadkins.haep2l7b/page.html?secure=1#3/14.69/12.83)
 
 
+I'm also creating How To's for anyone with a general knowledge of how maps and data are created to use:
+* [Making Your Map Amazing-er With ArcGIS Online](https://github.com/jonahadkins/Amazing-Er-Maps/blob/master/HowToArcGISOnline.md)
+* Making Your Map Amazing-er With MapBox (Coming Soon)
+
+
 Please suggest/comment/ask and contribute, definitely contribute.
 
 
