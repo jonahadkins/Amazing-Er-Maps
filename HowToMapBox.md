@@ -2,21 +2,17 @@
 #### Turning Your Amazing-er Map Into An Interactive MapBox Map
 
 ####**1. Find A Map**
-For this example, I found a map showing [US GDP; Split In Half](http://www.reddit.com/r/MapPorn/comments/1y371s/us_gdp_split_in_half_oc_1770x1114/). Per the title, the outlined areas denote where peanuts are grown. Missing from this map are identifying information, such as labels or county boundaries. The source on the map is shown as *NOAA Climate .gov*. To make this map **Amazing-er**, I'd like to add another level of information, such as the ability to select growing areas, or see labels on this map.
+For this example, I found a map showing [US GDP; Split In Half](http://www.reddit.com/r/MapPorn/comments/1y371s/us_gdp_split_in_half_oc_1770x1114/). This map shows urbanized areas of the United States where the combined GDP is half of the rest of the country. While it provides a stark contrast of where the core of US GDP is created, it could be **Amazing-er** if some context was provided (IMO).
 
 ####**2. Find The Source Data**
-Google searching US Peanut Growing Areas, led me to a few places, but I ended up at the [National Argricultural Statistics Service](http://www.nass.usda.gov/Quick_Stats/). Through their webform, Quick Stats, I was able to filter through the data. The filters for this export were: <br>
->Census >Crops >Field Crops >Peanuts >Production >Peanuts-Production, Measured In LB >Total<br>
+Some basic Googl-ing of GDP led me to the [Dept. of Commerce / Bureau of Economic Analysis](http://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm) To the right of their page is downloadable reports of their analysis. Choosing the tables only option [gave me this excel file](https://github.com/jonahadkins/Amazing-Er-Maps/blob/master/GDP_By_MSA/gdp_metro0913_bea_dot_gov.xls). The data shows GDP by [Metropolitan Statistical Area](https://www.census.gov/population/metro/) (MSA), which are metro areas containing a core urban area population of 50,000 or more. It also includes a ranking if each MSA. To provide further context, I'm also going to get the [population per MSA](http://www.census.gov/compendia/statab/cats/population/estimates_and_projections--states_metropolitan_areas_cities.html), which I found at the Census Bureau. 
 
-The location was filtered by county geographic area, and I chose the most recent time, which was 2007. The result was table within the site, that had download links. You can see the [cleaned up CSV](https://github.com/jonahadkins/Amazing-Er-Maps/blob/master/US_Peanut_Growing/NASS_USDA_gov_Peanut_Growth.csv) in the repository for the peanut map.
 
 ####**3. Obtain/Create GIS Data**
-Now that I have the source data, I need to join it up to some GIS data. The CSV contains county names, but duplicates county names could exist between states, so I'll need to use ANSI code. This is more or less a unique code for each county. Next, we find an **open and authoritative source** for US county boundaries. The Census Bureau has maintained it's TIGER data for years as an authoritative source. Visit:<br>
->[Maps & Data](http://www.census.gov/geo/maps-data/) > [TIGER Prodcuts](http://www.census.gov/geo/maps-data/data/tiger.html)> [Cartographic Boundary Files](http://www.census.gov/geo/maps-data/data/tiger-cart-boundary.html) > [Counties](http://www.census.gov/geo/maps-data/data/cbf/cbf_counties.html)<br>
+Now that I have the source data, I need to join it up to some GIS data. Both spreadsheets I downloaded list the name of the MSA and the CBSA (Core Based Statistical Area) code for each MSA. I was able to find the [authoritative MSA shapefile](http://www2.census.gov/geo/tiger/TIGER2012/CBSA/) from the Census Bureau.
 
-From there you can chose the resolution of the shapefile and download.  
 #####**Data Clean-Up**
-Most desktop GIS software can perform any of the following; To join the shapefile with the csv, I had to first concatenate the state and county ansi codes to one field in both the CSV and the shapefile. With the join complete, I selected only the counties that had peanut growing data and exported it to a new shapefile, with a web mercator projection. The resulting data set has County Name and Value (Measured In Lbs. Of Peanuts Produced). Some values had a (D) code, which meant the vlaue "..Withheld to avoid disclosing data for individual operations.."  I created a simple color grouping (group) to sort visually by counties with this (D) value. With that data complete, I zipped up the shapefile and also created a GeoJSON file by using the [Esri2Open Toolbox](https://github.com/project-open-data/esri2open)
+Most desktop GIS software can perform any of the following; To join the shapefile with the csv, I had to do quite a bit of clean-up on the MSA Names within the spreadsheets, so they matched up. Once that happened, I was able to join them up to the shapefile. I calcualted a rank by population per MSA to compare against the rank supplied with the GDP info. I exported the [final shapefile](https://github.com/jonahadkins/Amazing-Er-Maps/blob/master/GDP_By_MSA/GDB_By_MSA_2012.zip) with a web mercator projection and then zipped it up for storage on the repo.
 
 ####**4. Create An MapBox Map**<br>
 
@@ -32,7 +28,7 @@ To add a new map to this repo:
 * Update the main repo MapTracker csv
 
 ####**And You're Done!**<br>
-You can view my final version via ArcGIS Online --  [US Peanut Producing Counties](http://www.arcgis.com/apps/PanelsLegend/index.html?appid=86f6966ffb2741e28753f8f535bed728)
+You can view my final version via Mapbox --  [US Peanut Producing Counties](http://www.arcgis.com/apps/PanelsLegend/index.html?appid=86f6966ffb2741e28753f8f535bed728)
 
 
 If there were any parts of this How-To that were unclear, fuzzy, or *wrong* please comment or holla at me on Twitter [@jonahadkins](https://twitter.com/jonahadkins)
