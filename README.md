@@ -32,7 +32,7 @@ I've created 7 examples based on some "amazing" maps.
 
 I'm also creating How To's for anyone with a general knowledge of how maps and data are created to use:
 * [Making Your Map Amazing-er With ArcGIS Online](https://github.com/jonahadkins/Amazing-Er-Maps/blob/master/HowToArcGISOnline.md)
-* Making Your Map Amazing-er With MapBox (Coming Soon)
+* [Making Your Map Amazing-er With MapBox](https://github.com/jonahadkins/Amazing-Er-Maps/blob/master/HowToMapBox.md)
 
 
 Please suggest/comment/ask and contribute, definitely contribute.
