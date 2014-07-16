@@ -1,4 +1,4 @@
-Amazing-Er-Maps
+![Amazing-er](https://raw.githubusercontent.com/jonahadkins/Amazing-Er-Maps/gh-pages/img/amazinger.jpg)
 ===============
 ###New! [Amazing-er Maps Presentation!]( http://jonahadkins.github.io/Amazing-Er-Maps)
 
